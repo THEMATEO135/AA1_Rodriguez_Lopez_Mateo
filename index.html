@@ -52,7 +52,7 @@
       function obtenerPopulares() {
 
           $.ajax({
-              url: 'https://api.themoviedb.org/3/movie/popular?api_key=1c9824c7805ecfccebc172e98b454cf3&language=es-ES&page=1', //Pendiente Paginacion - Se ajustara para la etapa de profundizacion cuando se migre el proyecto a angular
+              url: 'https://api.themoviedb.org/3/movie/popular?api_key=1c9824c7805ecfccebc172e98b454cf3&language=es-MX&region=MX&page=1', //Pendiente Paginacion - Se ajustara para la etapa de profundizacion cuando se migre el proyecto a angular
               type: 'GET',
               dataType: 'json',
               success: function(result, status, xhr) {
